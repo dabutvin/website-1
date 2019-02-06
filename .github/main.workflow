@@ -4,7 +4,7 @@ workflow "New workflow" {
 }
 
 action "NOTICE file generator" {
-  uses = "dabutvin/chive-action@max-pr-body"
+  uses = "dabutvin/chive-action@1.0.4"
   secrets = ["GITHUB_TOKEN"]
   args = "--filename=TPN.md"
 }
